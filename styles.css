@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --white: #e2e8f0;
+    --grey: #566170;
+    --blue: #090d17a9;
+    --lightblue: #1d2531;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0;
+    gap: 3rem;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: #000; /* Cor de fundo caso a imagem demore a carregar */
+    overflow-x: hidden;
+}
+
+
+#background-tilt {
+    position: fixed;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    background: url('imagens/fundo.JPG') no-repeat center center;
+    background-size: cover;
+    z-index: -2;
+    will-change: transform;
+    -webkit-transform-style: preserve-3d;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.80);
+    z-index: -1; /* Entre a imagem e o texto */
+}
+
+
+.hero, .links {
+    position: relative;
+    z-index: 1;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid var(--white);
+    margin-bottom: 1rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero span:nth-child(2) {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+}
+
+.hero span:nth-child(3) {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+/* --- LINKS --- */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 468px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: .3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-wrap div {
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightblue);
+    border-radius: 1.1rem;
+}
+
+/* --- AJUSTE RESPONSIVO (O que você pediu) --- */
+@media (width <= 468px) {
+    .links, .hero {
+        width: 100%;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    /* Centralizar e diminuir nome */
+    .hero span:nth-child(2) {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+
+    /* Centralizar e diminuir slogan */
+    .hero span:nth-child(3) {
+        font-size: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+}
