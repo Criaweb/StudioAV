@@ -1,97 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conheça as modalidades, estrutura, horários e planos do Centro de Treinamento Serginho Team.">
-    <title>Serviços & Modalidades — Serginho Team</title>
-
-    <!-- Fontes do Google Fonts (Cinzel + Roboto) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/produtonovo.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StudioAVBeauty — Tabela de Serviços</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="produtonovo.css" />
 </head>
-<body class="page-servicos">
-<div class="bg-image" aria-hidden="true"></div>
-<div class="bg-overlay" aria-hidden="true"></div>
+<body>
+<div class="bg-noise"></div>
+<div class="container">
 
-<main class="container container--wide">
-    <!-- Header da Página -->
-    <header class="services-header fade-in">
-        <a href="index.html" class="back-link">← Voltar</a>
-        <span class="line-top" aria-hidden="true"></span>
-        <h1>Modalidades & Planos</h1>
-        <p class="tagline">Treinamento de alto rendimento, musculação e artes marciais. Escolha o seu ritmo e venha evoluir com o Serginho Team.</p>
-    </header>
+  <!-- HEADER -->
+  <header class="hero">
+    <span class="chip">✦ Tabela de Serviços</span>
+    <h1 class="brand">StudioAV<em>Beauty</em></h1>
+    <p class="tagline">Beleza, técnica e detalhe em cada atendimento. Confira nossa cartela de serviços e agende seu horário.</p>
+    <div class="divider">
+      <span></span><small>Atelier de beleza</small><span></span>
+    </div>
+  </header>
 
-    <section class="services">
-        <!-- 1. Musculação -->
-        <article class="service reveal right">
-            <div class="service-media">
-                <img src="imagens/academia.jpeg" alt="Espaço Musculação Serginho Team" loading="lazy">
-            </div>
-            <div class="service-body">
-                <h2>Musculação & Condicionamento</h2>
-                <p>Equipamentos modernos e estrutura completa para hipertrofia, força e preparação física com acompanhamento profissional.</p>
-                <span class="badge">Espaço Climatizado & Completo</span>
-                <a class="quote-btn" target="_blank" rel="noopener noreferrer" href="https://wa.me/5511985345873?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20área%20de%20Musculação.">Conheça a Área</a>
-            </div>
-        </article>
-        <!-- 2. Artes Marciais com Destaque -->
-        <article class="service service--highlight reveal left">
-            <div class="service-media">
-                <img src="imagens/artes-luta.webp" alt="Aulas de Kickboxing e Muay Thai" loading="lazy">
-                <div class="highlight-tag">Aula experimental por nossa conta!</div>
-            </div>
-            <div class="service-body">
-                <h2>Artes Marciais</h2>
-                <p>Kickboxing, Muay Thai, Jiu-jitsu, Boze e MMA para todos os níveis. Aprenda a técnica correta e supere seus limites.</p>
-                <span class="price">Agende seu treino cortesia sem compromisso</span>
-                <a class="quote-btn quote-btn--highlight" target="_blank" rel="noopener noreferrer" href="https://wa.me/5511985345873?text=Ol%C3%A1!%20Quero%20agendar%20minha%20AULA%20EXPERIMENTAL%20GRATUITA%20de%20Artes%20Marciais!">Agendar Aula Grátis</a>
+  <!-- REGRAS -->
+  <section class="rules card">
+    <h2 class="eyebrow">⚠ Regras & Observações</h2>
+    <ul class="rules-grid">
+      <li><strong>Agendamentos:</strong> Sinal de 30% do valor total (não reembolsável em caso de desistência).</li>
+      <li><strong>Reagendamentos:</strong> Solicitar com no mínimo 24h de antecedência.</li>
+      <li><strong>Manutenção externa:</strong> Trabalhos de outras profissionais possuem taxa adicional (consultar).</li>
+      <li><strong>Remoção:</strong> O serviço de remoção não inclui manicure tradicional.</li>
+      <li><strong>Valores variáveis:</strong> Preços podem variar conforme aplicação, decoração, manutenção ou remoção.</li>
+      <li><strong>Desistência:</strong> Cancelamento sem aviso prévio exige novo sinal para reagendar.</li>
+    </ul>
+  </section>
 
-            </div>
-        </article>
+  <!-- NAIL DESIGN -->
+  <section class="service-section card">
+    <div class="section-head">
+      <div class="icon">✦</div>
+      <div>
+        <p class="eyebrow-mini">Colocação</p>
+        <h3>Nail Design</h3>
+      </div>
+    </div>
+    <ul class="price-list">
+      <li><span class="name">Alongamento Decorado (Simples)</span><span class="dots"></span><span class="price">R$ 170,00</span></li>
+      <li><span class="name">Alongamento Natural</span><span class="dots"></span><span class="price">R$ 150,00</span></li>
+      <li><span class="name">Banho em Gel</span><span class="dots"></span><span class="price">R$ 120,00</span></li>
+      <li><span class="name">Pedicure em Gel</span><span class="dots"></span><span class="price">R$ 80,00</span></li>
+      <li><span class="name">Manicure em Gel</span><span class="dots"></span><span class="price">R$ 75,00</span></li>
+      <li><span class="name">Reposição de Unha</span><span class="dots"></span><span class="price">R$ 15,00</span></li>
+    </ul>
+  </section>
 
-        <!-- 3. Horários de Funcionamento & Grade de Aulas -->
-        <article class="service reveal right">
-            <div class="service-media">
-                <img src="imagens/GradeDeHorarios.JPG" alt="Grade de Horários e Funcionamento" loading="lazy">
-            </div>
-            <div class="service-body">
-                <h2>Grade de Horários</h2>
-                <p>Horários flexíveis de segunda a sábado. Confira nossa grade de aulas de artes marciais e o horário livre da musculação.</p>
-                <span class="badge">Seg a Sex: 06h às 22h | Sáb: 08h às 12h</span>
-                <a class="quote-btn" target="_blank" rel="noopener noreferrer" href="https://wa.me/5511985345873?text=Ol%C3%A1!%20Gostaria%20de%20receber%20a%20grade%20de%20horários%20completa.">Ver Grade Completa</a>
-            </div>
-        </article>
+  <!-- MANUTENÇÕES -->
+  <section class="service-section card">
+    <div class="section-head">
+      <div class="icon">♛</div>
+      <div>
+        <p class="eyebrow-mini">Unhas</p>
+        <h3>Manutenções</h3>
+      </div>
+    </div>
+    <ul class="price-list">
+      <li><span class="name">Alongamento Decorado <em>— Até 20 dias</em></span><span class="dots"></span><span class="price">R$ 110,00</span></li>
+      <li><span class="name">Alongamento Decorado <em>— Até 40 dias</em></span><span class="dots"></span><span class="price">R$ 145,00</span></li>
+      <li><span class="name">Alongamento Natural <em>— Até 20 dias</em></span><span class="dots"></span><span class="price">R$ 100,00</span></li>
+      <li><span class="name">Alongamento Natural <em>— Até 40 dias</em></span><span class="dots"></span><span class="price">R$ 130,00</span></li>
+      <li><span class="name">Mudança de Formato <em>— Consultar</em></span><span class="dots"></span><span class="price">R$ 20,00</span></li>
+    </ul>
+  </section>
 
-        <!-- 4. Planos & Convênios (TotalPass / Wellhub) -->
-        <article class="service reveal left">
-            <div class="service-media">
-                <img src="imagens/Planos.PNG" alt="Planos Serginho Team, TotalPass e Wellhub" loading="lazy">
-            </div>
-            <div class="service-body">
-                <h2>Planos & Benefícios</h2>
-                <p>Planos mensais, trimestrais e anuais com condições especiais. Também aceitamos os principais corporativos do mercado.</p>
-                <div class="partners-badges">
-                    <span class="partner-tag">TotalPass</span>
-                    <span class="partner-tag">Wellhub (Gympass)</span>
-                </div>
-                <a class="quote-btn" target="_blank" rel="noopener noreferrer" href="https://wa.me/5511985345873?text=Ol%C3%A1!%20Quero%20saber%20os%20valores%20dos%20planos%20e%20como%20usar%20TotalPass/Wellhub.">Consultar Planos</a>
-            </div>
-        </article>
-    </section>
+  <!-- REMOÇÃO -->
+  <section class="service-section card">
+    <div class="section-head">
+      <div class="icon">✂</div>
+      <div>
+        <p class="eyebrow-mini">Unhas</p>
+        <h3>Remoção</h3>
+      </div>
+    </div>
+    <ul class="price-list">
+      <li><span class="name">Remoção Acrílico</span><span class="dots"></span><span class="price">R$ 60,00</span></li>
+      <li><span class="name">Remoção Gel</span><span class="dots"></span><span class="price">R$ 50,00</span></li>
+      <li><span class="name">Remoção e Blindagem</span><span class="dots"></span><span class="price">R$ 100,00</span></li>
+      <li><span class="name">Remoção Esmalte em Gel</span><span class="dots"></span><span class="price">R$ 20,00</span></li>
+      <li><span class="name">Remoção para nova aplicação</span><span class="dots"></span><span class="price">R$ 30,00</span></li>
+    </ul>
+  </section>
 
-    <footer class="footer">
-        <span class="line" aria-hidden="true"></span>
-        <span>SERGINHO TEAM <br> Musculação <br> Artes Marciais</span>
-    </footer>
-</main>
+  <!-- MANICURE TRADICIONAL -->
+  <section class="service-section card">
+    <div class="section-head">
+      <div class="icon">✋</div>
+      <div>
+        <p class="eyebrow-mini">Mãos & Pés</p>
+        <h3>Manicure Tradicional</h3>
+      </div>
+    </div>
+    <ul class="price-list">
+      <li><span class="name">Mão</span><span class="dots"></span><span class="price">R$ 40,00</span></li>
+      <li><span class="name">Pé</span><span class="dots"></span><span class="price">R$ 40,00</span></li>
+      <li><span class="name">Mão e Pé</span><span class="dots"></span><span class="price">R$ 80,00</span></li>
+      <li><span class="name">Cutilagem</span><span class="dots"></span><span class="price">R$ 20,00</span></li>
+      <li><span class="name">Plástica dos Pés</span><span class="dots"></span><span class="price">R$ 100,00</span></li>
+      <li><span class="name">Spa dos Pés</span><span class="dots"></span><span class="price">R$ 70,00</span></li>
+    </ul>
+  </section>
 
-<script src="js/Script.js"></script>
-<script src="js/servicos.js"></script>
+  <!-- CTA -->
+    <div class="cta-wrap">
+        <a class="btn-agendar" target="_blank" href="https://api.whatsapp.com/send/?phone=5511970191342&text=Olá! Vim pelo site e gostaria de agendar um serviço.">
+            ✆ Agendar via WhatsApp
+        </a>
+        <a class="btn-vip" target="_blank" href="https://chat.whatsapp.com/EtuyWOvuSxKDTHEWbTpd4n?mode=gi_t">
+            Entre no Grupo VIP
+        </a>
+        <p class="cta-note">⏱ Resposta em horário comercial</p>
+    </div>
+
+  <footer class="foot">
+    <p class="foot-brand">StudioAVBeauty</p>
+    <p class="foot-sub">Onde detalhes fazem a diferença</p>
+  </footer>
+
+</div>
 </body>
 </html>

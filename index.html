@@ -1,139 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Serginho Team - Musculação + Artes Marciais. Treinamento personalizado para resultados reais.">
-    <meta property="og:title" content="Serginho Team">
-    <meta property="og:description" content="Treinamento personalizado em musculação e artes marciais para resultados reais.">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <title>Serginho Team - Oficial</title>
-
-    <!-- Fontes do Google (Cinzel + Roboto) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Folha de Estilos Principal -->
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Studio AV Beauty</title>
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- ========================================== -->
-<!-- INÍCIO: Fundo em Vídeo e Camada Escura      -->
-<!-- ========================================== -->
-<video class="bg-video" autoplay muted loop playsinline preload="auto">
-    <source src="imagens/videoFundo.MP4" type="video/mp4">
-    Seu navegador não suporta vídeos de fundo.
-</video>
-<div class="bg-overlay" aria-hidden="true"></div>
-<!-- ========================================== -->
-<!-- FIM: Fundo em Vídeo                        -->
-<!-- ========================================== -->
+<div id="background-tilt"></div>
 
-<!-- Container Central da Página -->
-<main class="container">
+<div class="overlay"></div>
 
-    <!-- ========================================== -->
-    <!-- INÍCIO: Seção do Perfil / Hero             -->
-    <!-- ========================================== -->
-    <section class="hero fade-in">
-        <div class="profile-wrapper">
+<div class="hero">
+    <div class="img">
+        <img src="imagens/logobv.jpg" alt="logo da marca">
+    </div>
+    <span>Studio AV Beauty</span>
+    <span>
+            Especialistas em realçar sua beleza
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#3f9aea" viewBox="0 0 256 256"><path d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.72,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.28,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-52.2,6.84-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+        </span>
+</div>
 
-            <!-- Foto da Logo -->
-            <div class="profile-image">
-                <img src="imagens/LogoSerginho.JPG" alt="Logo Serginho Team">
+<div class="links">
+    <a href="produtoAtual.html" class="item">
+        <div class="item-wrap">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M216,60H40A20,20,0,0,0,20,80V196a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V80A20,20,0,0,0,216,60ZM44,84H212v56H44ZM44,156H212v12a4,4,0,0,1-4,4H48a4,4,0,0,1-4-4Z"></path></svg>
             </div>
-
-
-            <!-- Selo de Verificado Oficial (Instagram) -->
-            <span class="verified" aria-label="Perfil Verificado">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M22.5 12.5c0-1.58-.8-2.97-2-3.79.44-1.5-.04-3.17-1.24-4.37-1.2-1.2-2.87-1.68-4.37-1.24C14.07 1.9 12.68 1.1 11.1 1.1s-2.97.8-3.79 2c-1.5-.44-3.17.04-4.37 1.24-1.2 1.2-1.68 2.87-1.24 4.37C.8 9.53 0 10.92 0 12.5s.8 2.97 2 3.79c-.44 1.5.04 3.17 1.24 4.37 1.2 1.2 2.87 1.68 4.37 1.24.82 1.2 2.21 2 3.79 2s2.97-.8 3.79-2c1.5-.44 3.17-.04 4.37-1.24 1.2-1.2 1.68-2.87 1.24-4.37 1.2-.82 2-2.21 2-3.79zM10 16.5l-4-4 1.41-1.41L10 13.67l6.59-6.59L18 8.5l-8 8z"/>
-                    </svg>
-                </span>
-
+            Nossos Serviços
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg>
+    </a>
 
-        <!-- Títulos Principais -->
-        <h1>Serginho Team</h1>
-        <p class="tagline">Musculação + Artes Marciais</p>
-    </section>
-    <!-- ========================================== -->
-    <!-- FIM: Seção do Perfil / Hero                -->
-    <!-- ========================================== -->
+    <a href="https://www.instagram.com/studioavbeauty/" class="item" target="_blank">
+        <div class="item-wrap">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm48.14,34.34a12,12,0,1,1-12-12A12,12,0,0,1,176.14,58.34ZM128,72a56,56,0,1,1-56,56A56.06,56.06,0,0,1,128,72Zm0,96a40,40,0,1,0-40-40A40.05,40.05,0,0,0,128,168Z"></path></svg>
+            </div>
+            Siga no Instagram
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg>
+    </a>
 
-    <!-- ========================================== -->
-    <!-- INÍCIO: Navegação de Links (Link na Bio)   -->
-    <!-- ========================================== -->
-    <nav class="links" aria-label="Links do Serginho Team - Oficial">
+    <a href="https://www.google.com/maps/place/R.+Natalina+de+Melo+Gouv%C3%AAia+Norkivicius,+446+-+Parque+Continental+III,+Guarulhos+-+SP,+07085-330/@-23.424617,-46.5587722,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef46041c6b283:0xc65fb199e7d8e081!8m2!3d-23.424617!4d-46.5561973!16s%2Fg%2F11w7q6w184?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D" class="item" target="_blank">
+        <div class="item-wrap">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M112,80a16,16,0,1,1,16,16A16,16,0,0,1,112,80ZM64,80a64,64,0,0,1,128,0c0,59.95-57.58,93.54-60,94.95a8,8,0,0,1-7.94,0C121.58,173.54,64,140,64,80Zm16,0c0,42.2,35.84,70.21,48,78.5,12.15-8.28,48-36.3,48-78.5a48,48,0,0,0-96,0Zm122.77,67.63a8,8,0,0,0-5.54,15C213.74,168.74,224,176.92,224,184c0,13.36-36.52,32-96,32s-96-18.64-96-32c0-7.08,10.26-15.26,26.77-21.36a8,8,0,0,0-5.54-15C29.22,156.49,16,169.41,16,184c0,31.18,57.71,48,112,48s112-16.82,112-48C240,169.41,226.78,156.49,202.77,147.63Z"></path></svg>
+            </div>
+            Localização
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg>
+    </a>
 
-        <!-- Botão 1: Nossos Serviços (Com Ícone de Peso/Anilha) -->
-        <a href="produtoAtual.html" class="link-card slide-up" style="--delay: 80ms">
-                <span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="9"/>
-                        <circle cx="12" cy="12" r="3"/>
-                        <path d="M12 3v3"/>
-                        <path d="M12 18v3"/>
-                        <path d="M3 12h3"/>
-                        <path d="M18 12h3"/>
-                    </svg>
-                </span>
-            <span class="label">Nossos Serviços</span>
-            <span class="arrow" aria-hidden="true">→</span>
-        </a>
+    <a href="https://api.whatsapp.com/send/?phone=5511970191342&text=Olá! Gostaria de agendar um horário." class="item" target="_blank">
+        <div class="item-wrap">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M168,224a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,224ZM227.39,60.32a111.36,111.36,0,0,0-39.12-43.08,8,8,0,1,0-8.54,13.53,94.13,94.13,0,0,1,33.46,36.91,8,8,0,0,0,14.2-7.36ZM35.71,72a8,8,0,0,0,7.1-4.32A94.13,94.13,0,0,1,76.27,30.77a8,8,0,1,0-8.54-13.53A111.36,111.36,0,0,0,28.61,60.32,8,8,0,0,0,35.71,72Zm186.1,103.94A16,16,0,0,1,208,200H48a16,16,0,0,1-13.79-24.06C43.22,160.39,48,138.28,48,112a80,80,0,0,1,160,0C208,138.27,212.78,160.38,221.81,175.94ZM208,184c-10.64-18.27-16-42.49-16-72a64,64,0,0,0-128,0c0,29.52-5.38,53.74-16,72Z"></path></svg>
+            </div>
+            Agende seu Horário
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg>
+    </a>
 
-        <!-- Botão 2: Instagram -->
-        <a href="https://www.instagram.com/serginhoteam_oficial/?hl=pt-br" target="_blank" rel="noopener noreferrer" class="link-card slide-up" style="--delay: 160ms">
-                <span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-                </span>
-            <span class="label">Siga no Instagram</span>
-            <span class="arrow" aria-hidden="true">→</span>
-        </a>
+    <a href="https://chat.whatsapp.com/EtuyWOvuSxKDTHEWbTpd4n?mode=gi_t" class="item" target="_blank">
+        <div class="item-wrap">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#e2e8f0" viewBox="0 0 256 256">
+                    <path d="M245.15,92A16,16,0,0,0,223,76.53l-28.71,11.5-49.88-58.2a16,16,0,0,0-24.8,0L69.75,88,41,76.53A16,16,0,0,0,18.85,102l22,106.3A16,16,0,0,0,56.57,220H199.43a16,16,0,0,0,15.71-11.72l22-106.3A15.93,15.93,0,0,0,245.15,92ZM201,204H55L34.19,103.73l41,16.42a16,16,0,0,0,18.52-5.46L128,45.42l34.25,40a16,16,0,0,0,18.52,5.46l41-16.42Z"></path>
+                </svg>
+            </div>
+            Entre no Grupo VIP
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg>
+    </a>
 
-        <!-- Botão 3: Localização (Google Maps) -->
-        <a href="https://www.google.com.br/maps/place/Rua+Santa+Rita+do+Passa+Quatro,+27+-+Jardim+Brasil,+S%C3%A3o+Paulo+-+SP,+02227-130/@-23.4736575,-46.5780499,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef5eb176ba1af:0x437c7abfc14b55fc!8m2!3d-23.4736624!4d-46.575475!16s%2Fg%2F11xs__7wzf?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="link-card slide-up" style="--delay: 240ms">
-                <span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                </span>
-            <span class="label">Localização</span>
-            <span class="arrow" aria-hidden="true">→</span>
-        </a>
+</div>
 
-        <!-- Botão 4: Agendar Aula Experimental (WhatsApp) -->
-        <a href="https://wa.me/5511985345873?text=Ol%C3%A1!%20Quero%20agendar%20minha%20AULA%20EXPERIMENTAL%20GRATUITA%20de%20Artes%20Marciais!" class="link-card slide-up" style="--delay: 320ms">
-                <span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-                    </svg>
-                </span>
-            <span class="label">Agende sua aula experimental</span>
-            <span class="arrow" aria-hidden="true">→</span>
-        </a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script>
+    const fundo = document.querySelector("#background-tilt");
 
-    </nav>
-    <!-- ========================================== -->
-    <!-- FIM: Navegação de Links                    -->
-    <!-- ========================================== -->
+    // Função para iniciar o efeito
+    function initTilt() {
+        VanillaTilt.init(fundo, {
+            max: 10,
+            speed: 800,
+            gyroscope: true,
+            scale: 1.1,
+            "full-page-listening": true
+        });
+    }
 
-    <!-- ========================================== -->
-    <!-- INÍCIO: Rodapé da Página   t                -->
-    <!-- ========================================== -->
+    // Lógica específica para iPhone (iOS)
+    function pedirPermissaoIOS() {
+        if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+            // Se for iOS 13+
+            DeviceOrientationEvent.requestPermission()
+                .then(response => {
+                    if (response == 'granted') {
+                        initTilt();
+                    }
+                })
+                .catch(console.error);
+        } else {
+            // Se for Android ou PC, inicia direto
+            initTilt();
+        }
+    }
 
-    <footer class="footer">
-        <span class="line" aria-hidden="true"></span>
-        <span>Serginho Team - Oficial</span>
-    </footer>
-    <!-- ========================================== -->
-    <!-- FIM: Rodapé da Página                      -->
-    <!-- ========================================== -->
-
-</main>
-
-<!-- Scripts da Página -->
-<script src="js/Script.js"></script>
+    // O iPhone exige um toque na tela para liberar o sensor
+    document.body.addEventListener('click', function() {
+        pedirPermissaoIOS();
+    }, { once: true }); // Executa apenas no primeiro clique
+</script>
 </body>
 </html>
